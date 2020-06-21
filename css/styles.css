@@ -1,0 +1,195 @@
+.container{
+    width:80%;
+    height: auto;
+    left:10%;
+    position: absolute;
+    background-image: url("../background.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigation{
+    background-color: #009999;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bare{text-decoration: none;
+    color: #ff6666;
+    font-weight: bolder;
+
+}
+.section1>a{
+    text-decoration: none;
+
+}
+.nomad{
+    color: #ffffff;
+    font-weight: bold;
+}
+.section2  {
+    width: 180px;
+    height: 20px;
+    margin-left: 88%;
+    position: absolute;
+    margin-top: -48px;
+    font-weight: 400px;
+    font-size: 13px;
+     
+}
+.section2 ul li {
+    color: #fff;
+    list-style: none;
+   
+
+}
+.section2 ul a {
+    text-decoration: none;
+}
+
+form{
+    height: auto;
+    width: 410px;
+    background-color: rgba(51, 102, 102, 0.3);
+    margin-left: 300px;
+    margin-top: 50px;
+    padding: 10px;
+     border-radius: 20px;
+}
+.join a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 30%;
+    position: relative;
+    top: 20px;
+}
+.names{
+    display: flex;
+}
+.first{ 
+    margin-left: 30px;
+    position: relative;
+    top:20px;
+    
+}
+.last{
+    margin-left: 30px;
+    position: relative;
+    top:20px;
+}
+.names input{
+    height: 25px;
+    outline: none;
+    border: 1px soid #009999;
+    width: 160px;
+}
+form input{
+    border-radius: 20px;
+    height: 25px;
+    outline: none;
+    border: 1px solid #009999;
+}
+button{
+    border-radius: 20px;
+    height: 30px;
+}
+select{
+    border-radius: 20px;
+    width: 300px;
+    height: 25px;
+    outline: none;
+    border: 1px solid #009999;
+}
+.part2{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-left: 30px;
+
+}
+.facebook{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #336699;
+    border: none;
+    padding: 5px;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    width: 150px;
+    margin-left: 3px;
+    margin-right: 25px;
+    
+
+}
+.google{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: none;
+    padding: 5px;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    width: 150px;
+    position: relative;
+    left:1%
+
+    
+}
+.fbtext{
+    margin-left: 5px;
+}
+.social{
+    display: flex;
+    height: 35px;
+    position: absolute;
+    top:560px;
+    padding-left: 28px;
+  
+    
+}
+.part2 select{
+    width: 350px;
+}
+form button{
+    background-color: #ff6666;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+.already{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+.line1{
+    margin-left: 30px;
+    margin-right: 230px;
+}
+.line2{
+    margin-left: 210px;
+    position: relative;
+    top: -10px;
+    margin-right: 35px;
+   
+}
+.lines{
+    position: relative;
+    
+}
+p{
+    color: #ffffff;
+    position: relative;
+    left:45%;
+    top:-37px;
+}
+
+
+
+
+
+
+
