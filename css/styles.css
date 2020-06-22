@@ -15,6 +15,7 @@
     flex-direction: row;
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 45px;
 }
 .bare{text-decoration: none;
     color: #ff6666;
@@ -23,6 +24,10 @@
 }
 .section1>a{
     text-decoration: none;
+}
+.section1{
+    padding-top: 35px;
+    margin-left: -45px;
 
 }
 .nomad{
@@ -32,9 +37,9 @@
 .section2  {
     width: 180px;
     height: 20px;
-    margin-left: 88%;
+    margin-left: 93%;
     position: absolute;
-    margin-top: -48px;
+    margin-top: -80px;
     font-weight: 400px;
     font-size: 13px;
      
@@ -117,10 +122,13 @@ select{
     padding: 5px;
     color: #ffffff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 11px;
-    width: 150px;
+    width: 130px;
     margin-left: 3px;
     margin-right: 25px;
+    left: 5px;
+    padding:12px;
+    height: 9px;
+    
     
 
 }
@@ -129,24 +137,31 @@ select{
     border-radius: 20px;
     background-color: #ffffff;
     border: none;
-    padding: 5px;
+    padding: 12px;
     color: #000000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 11px;
-    width: 150px;
+    width: 140px;
     position: relative;
-    left:1%
+    left:1%;
+    height: 9px;
+    
 
     
 }
 .fbtext{
-    margin-left: 5px;
+    margin-left: 24px;
+    text-align: center;
+    font-size: 10px;
+    position: absolute;
+    top:10px
+    
 }
 .social{
     display: flex;
     height: 35px;
     position: absolute;
-    top:560px;
+    top:530px;
     padding-left: 28px;
   
     
@@ -185,6 +200,48 @@ p{
     position: relative;
     left:45%;
     top:-37px;
+}
+.fbicon{
+    font-size: 15px;
+    margin-top: 25px;
+    position: absolute;
+    left: 48px;
+    top: -12px;
+
+}
+.gicon{
+    font-size: 15px;
+    position: absolute;
+    margin-left: 10px;
+}
+.gtext
+{
+    margin-left: 29px;
+    text-align: center;
+    font-size: 10px;
+    position: absolute;
+    top:10px
+
+}
+.log a{
+    text-decoration: none;
+    color: #ff6666;
+}
+.already{
+    color: #ffffff;
+    position: absolute;
+    left: 440px;
+    top: 93%;
+}
+.join{
+    position: relative;
+    left: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: -25px;
+}
+.formbar{
+   margin-top: -26px;
+
 }
 
 
