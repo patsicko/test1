@@ -246,7 +246,21 @@ p{
 
 
 
+ /* MEDIA QUERY */
 
 
+@media  all and (max-width: 500px){
+    .container{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        
 
+    }
+    .navigation{
+        background-color: yellowgreen;
+    }
+
+}
+   
 
